@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <div class="weather-box">
+            <div class="weather-icon" id="weather-icon">
+                <img src="cloud-icon.png" alt="Cloud" width="50">
+            </div>
+            <h1 id="city-name">City Name</h1>
+            <h2 id="temperature">0°C</h2>
+            <p id="description">Weather Description</p>
+            <p id="humidity">Humidity: 0%</p>
+            <p id="wind">Wind: 0 km/h</p>
+            <input type="text" id="city-input" placeholder="Enter city">
+            <button id="get-weather">Get Weather</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
